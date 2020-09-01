@@ -1,4 +1,4 @@
-package cn.wwmxd.util;
+package cn.log.util;
 
 /**
  * @author liwei

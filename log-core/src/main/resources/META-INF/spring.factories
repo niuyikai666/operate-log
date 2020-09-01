@@ -1,2 +1,2 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.wwmxd.config.LogStarterAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.log.config.LogStarterAutoConfiguration
 

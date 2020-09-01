@@ -1,4 +1,4 @@
-package cn.wwmxd.util;
+package cn.log.util;
 
 /**
  * Created by ace on 2017/9/10.

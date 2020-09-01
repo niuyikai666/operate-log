@@ -1,17 +1,12 @@
-package cn.wwmxd.parser;
+package cn.log.parser;
 
-import cn.wwmxd.EnableModifyLog;
-import cn.wwmxd.service.IService;
-import cn.wwmxd.util.ReflectionUtils;
-import cn.wwmxd.util.SpringUtil;
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
-import org.aopalliance.intercept.Joinpoint;
+import cn.log.EnableModifyLog;
+import cn.log.service.IService;
+import cn.log.util.SpringUtil;
+import cn.log.util.ReflectionUtils;
 import org.aspectj.lang.JoinPoint;
 import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
-
-import javax.annotation.PostConstruct;
-import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 基础解析类

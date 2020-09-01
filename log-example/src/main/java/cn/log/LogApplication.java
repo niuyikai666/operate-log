@@ -1,6 +1,5 @@
-package cn.wwmxd.log;
+package cn.log;
 
-import cn.wwmxd.EnableOperateLog;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -1,4 +1,4 @@
-package cn.wwmxd.log.entity;
+package cn.log.entity;
 
 import lombok.Data;
 import lombok.ToString;

@@ -1,34 +1,29 @@
-package cn.wwmxd.Interceptor;
+package cn.log.Interceptor;
 
 
-import cn.wwmxd.DataName;
-import cn.wwmxd.EnableModifyLog;
-import cn.wwmxd.entity.OperateLog;
-import cn.wwmxd.parser.ContentParser;
-import cn.wwmxd.parser.DefaultContentParse;
-import cn.wwmxd.service.OperatelogService;
-import cn.wwmxd.util.*;
+import cn.log.DataName;
+import cn.log.EnableModifyLog;
+import cn.log.entity.OperateLog;
+import cn.log.parser.ContentParser;
+import cn.log.parser.DefaultContentParse;
+import cn.log.service.OperatelogService;
+import cn.log.util.*;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
 import javax.servlet.http.HttpServletRequest;
 import java.lang.reflect.Field;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;

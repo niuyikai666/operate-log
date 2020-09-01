@@ -1,9 +1,8 @@
-package cn.wwmxd.util;
+package cn.log.util;
 
-import cn.wwmxd.DataName;
+import cn.log.DataName;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.util.Assert;
 
 import java.lang.reflect.*;
 import java.util.ArrayList;

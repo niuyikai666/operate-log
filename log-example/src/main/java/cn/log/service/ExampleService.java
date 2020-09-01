@@ -1,10 +1,7 @@
-package cn.wwmxd.log.service;
+package cn.log.service;
 
-import cn.wwmxd.log.entity.Example;
-import cn.wwmxd.service.IService;
+import cn.log.entity.Example;
 import org.springframework.stereotype.Service;
-
-import java.util.UUID;
 
 /**
  * @author liwei

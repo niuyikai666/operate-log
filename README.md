@@ -1,8 +1,4 @@
 
- ![badge](https://action-badges.now.sh/lwydyby/wwmxd-log)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.gitee.lwydyby/wwmxd-log/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.gitee.lwydyby/wwmxd-log)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
 ### 简介
    当对业务内容进行编辑时，记录何人何时何ip进行何种改动（包含了原值和修改后的值），保存到数据库中（1.0.3版本开始不再局限于数据库,可以自定义保存方式）1.1.0之后改为springboot2.0 
    springboot 1.0版本请使用1.0.9版本
@@ -69,12 +65,6 @@
  
  }
 ```
-简单例子：
- ```java
- @EnableModifyLog(modifyType = ModifyName.SAVE,serviceclass = DemoService.class)
-    public BaseResponse addDemo(@RequestBody Demo demo){
-        ...
-    }
 ```
 2.编写解析类，默认的解析类为使用id查询，自定义的解析类请继承ContentParser接口，并在注解中赋值
 ```java
@@ -121,29 +111,6 @@ public interface IService<T,S> {
 
 
 
-4.自行根据需求实现OperatelogService接口（jpa/mybatis都可以）
-
-```java
-public interface OperatelogService {
-    void insert(Operatelog operatelog);
-}
-```
-
-
-5.默认的操作方式有：
- ```java
-public enum  ModifyName {
-    SAVE,UPDATE,DELETE,GET;
-}
-```
-6.如需记录操作字段中文请在entity中使用DataName注解
- 如：
- ```java
-@DataName(name="操作日期")
-private String modifydate;
-```
-
-6.将用户信息存入BaseContextHandler（如果需要记录操作人，请在拦截器上自行注入）
 
 
 

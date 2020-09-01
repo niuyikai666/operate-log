@@ -1,4 +1,4 @@
-package cn.wwmxd.util;
+package cn.log.util;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

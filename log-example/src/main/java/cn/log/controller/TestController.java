@@ -1,9 +1,9 @@
-package cn.wwmxd.log.controller;
+package cn.log.controller;
 
-import cn.wwmxd.EnableModifyLog;
-import cn.wwmxd.log.entity.Example;
-import cn.wwmxd.log.service.ExampleService;
-import cn.wwmxd.util.ModifyName;
+import cn.log.EnableModifyLog;
+import cn.log.entity.Example;
+import cn.log.service.ExampleService;
+import cn.log.util.ModifyName;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;

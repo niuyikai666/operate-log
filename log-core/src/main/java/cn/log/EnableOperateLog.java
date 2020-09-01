@@ -1,8 +1,8 @@
-package cn.wwmxd;
+package cn.log;
 
-import cn.wwmxd.Interceptor.ModifyAspect;
-import cn.wwmxd.parser.DefaultContentParse;
-import cn.wwmxd.util.SpringUtil;
+import cn.log.Interceptor.ModifyAspect;
+import cn.log.util.SpringUtil;
+import cn.log.parser.DefaultContentParse;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

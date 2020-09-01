@@ -1,6 +1,6 @@
-package cn.wwmxd.service;
+package cn.log.service;
 
-import cn.wwmxd.entity.OperateLog;
+import cn.log.entity.OperateLog;
 
 /**
  * @author liwei

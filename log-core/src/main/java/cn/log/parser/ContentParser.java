@@ -1,6 +1,6 @@
-package cn.wwmxd.parser;
+package cn.log.parser;
 
-import cn.wwmxd.EnableModifyLog;
+import cn.log.EnableModifyLog;
 import org.aspectj.lang.JoinPoint;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

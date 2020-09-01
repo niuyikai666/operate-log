@@ -1,8 +1,8 @@
-package cn.wwmxd;
+package cn.log;
 
-import cn.wwmxd.parser.DefaultContentParse;
-import cn.wwmxd.service.IService;
-import cn.wwmxd.util.ModifyName;
+import cn.log.service.IService;
+import cn.log.parser.DefaultContentParse;
+import cn.log.util.ModifyName;
 
 import java.lang.annotation.*;
 
@@ -52,7 +52,7 @@ public @interface EnableModifyLog {
     /**
      * @return id的类型(单层查询, 单表的)
      */
-    Class idType() default Long.class;
+    Class idType() default String.class;
 
     String[] idNames() default {};
 

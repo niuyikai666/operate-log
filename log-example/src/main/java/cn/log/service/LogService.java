@@ -1,7 +1,7 @@
-package cn.wwmxd.log.service;
+package cn.log.service;
 
-import cn.wwmxd.entity.OperateLog;
-import cn.wwmxd.service.OperatelogService;
+import cn.log.entity.OperateLog;
+import cn.log.service.OperatelogService;
 import org.springframework.stereotype.Service;
 
 /**

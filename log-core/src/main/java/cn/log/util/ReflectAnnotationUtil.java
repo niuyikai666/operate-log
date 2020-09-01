@@ -1,4 +1,4 @@
-package cn.wwmxd.util;
+package cn.log.util;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;

@@ -1,8 +1,8 @@
-package cn.wwmxd.entity;
+package cn.log.entity;
 
 
-import cn.wwmxd.DataName;
-import cn.wwmxd.util.ModifyName;
+import cn.log.DataName;
+import cn.log.util.ModifyName;
 import lombok.Data;
 import lombok.ToString;
 

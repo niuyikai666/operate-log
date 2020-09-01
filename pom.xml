@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>log</groupId>
-    <artifactId>com.gitee.lwydyby</artifactId>
+    <artifactId>com.gitee.nyk</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
 
     <modules>
-        <module>./wwmxd-log</module>
+        <module>./log-core</module>
         <module>./log-example</module>
     </modules>
 

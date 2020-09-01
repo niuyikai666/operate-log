@@ -1,4 +1,4 @@
-package cn.wwmxd;
+package cn.log;
 
 
 import java.lang.annotation.*;
