@@ -1,4 +1,4 @@
- 
+
  ![badge](https://action-badges.now.sh/lwydyby/wwmxd-log)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.gitee.lwydyby/wwmxd-log/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.gitee.lwydyby/wwmxd-log)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -140,7 +140,7 @@ public enum  ModifyName {
  如：
  ```java
 @DataName(name="操作日期")
-	    private String modifydate;
+private String modifydate;
 ```
 
 6.将用户信息存入BaseContextHandler（如果需要记录操作人，请在拦截器上自行注入）
